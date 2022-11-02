@@ -7,5 +7,6 @@ pytorch1.9.0 || pytorch-lightning 1.5.5
 ## (2)the data used in the notebook
 链接：https://drive.google.com/file/d/1j637LrLEjqmmWkWxKdWVJ2IDj3a6ZTdO/view?usp=sharing
 ## (3)Usage
-In the notebook,import the field seismic data in this line: f3 = np.load("/data/max/FaultNet-main/data/F3.npy").transpose((2, 1, 0)).  
+import the field seismic data in this line: gx = np.load("/data/max/3d-nets/f3.npy")# load the data in this line  
+load the weight in this line: model=model.load_from_checkpoint("/data/max/3d-nets/lightning_logs/R2-unet_se/2022.5.26/ce+Gdice/epoch=45-step=16146.ckpt")# load the weight in this line
 Then, run the notebook from start.
