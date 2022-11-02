@@ -7,6 +7,6 @@ pytorch1.9.0 || pytorch-lightning 1.5.5
 ## (2)the data used in the notebook
 链接：https://drive.google.com/file/d/1j637LrLEjqmmWkWxKdWVJ2IDj3a6ZTdO/view?usp=sharing
 ## (3)Usage
-###import the field seismic data in this line: gx = np.load("/data/max/3d-nets/f3.npy")# load the data in this line  
-###load the weight in this line: model=model.load_from_checkpoint("")# load the weight in this line
-###Then, run the notebook from start.
+### import the field seismic data in this line: gx = np.load("/data/max/3d-nets/f3.npy")# load the data in this line  
+### load the weight in this line: model=model.load_from_checkpoint("")# load the weight in this line
+### Then, run the notebook from start.
