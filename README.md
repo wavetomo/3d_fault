@@ -5,7 +5,7 @@ pytorch1.9.0 || pytorch-lightning 1.5.5
 
 ## (1)the data used in the notebook
 link：https://drive.google.com/file/d/1j637LrLEjqmmWkWxKdWVJ2IDj3a6ZTdO/view?usp=sharing
-##(2)the onnx file used in the notebook
+## (2)the onnx file used in the notebook
 link：https://drive.google.com/file/d/1yXmXEpjaDEQyMrio9xNpKgJsvmMxFvPk/view?usp=share_link
 ## (3)Usage
 ### import the field seismic data in this line: gx = np.load("/data/max/3d-nets/f3.npy")# load the data in this line  
