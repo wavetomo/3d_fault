@@ -8,6 +8,6 @@ link：https://drive.google.com/file/d/1j637LrLEjqmmWkWxKdWVJ2IDj3a6ZTdO/view?us
 ## (2)the onnx file used in the notebook
 link：https://drive.google.com/file/d/1yXmXEpjaDEQyMrio9xNpKgJsvmMxFvPk/view?usp=share_link
 ## (3)Usage
-### import the field seismic data in this line: gx = np.load("/data/max/3d-nets/f3.npy")# load the data in this line  
-### load the weight in this line: model=model.load_from_checkpoint("")# load the weight in this line
+### import the field seismic data in this line: gx = np.load("/home1/max/3d-net/data_for_seminal/f3.npy")# load the data in this line  
+### load the weight in this line: filepath="model.onnx"# load the weight and model in this line
 ### Then, run the notebook from start.
